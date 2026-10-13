@@ -1,3 +1,7 @@
+//Ian A. Paz Hernandez
+//Tecnologias de la informacion
+//ID: 00603548
+
 public class Main {
     public static void main(String[] args) {
 

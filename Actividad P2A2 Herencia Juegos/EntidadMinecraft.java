@@ -1,3 +1,7 @@
+//Ian A. Paz Hernandez
+//Tecnologias de la informacion
+//ID: 00603548
+
 public class EntidadMinecraft {
     private String nombre;
     protected double vida;
