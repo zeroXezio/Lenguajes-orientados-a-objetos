@@ -29,11 +29,13 @@ public abstract class ProductoConTemperatura extends ProductoEnvasado{
         if (unidad.equalsIgnoreCase("celsius")){
             this.temperaturaMantenimiento = valor;
         }
-        if (unidad.equalsIgnoreCase("kelvin")){
+        else if (unidad.equalsIgnoreCase("kelvin")){
             this.temperaturaMantenimiento = valor - 273.15;
         }
-        if (unidad.equalsIgnoreCase("fahrenheit")){
+        else if (unidad.equalsIgnoreCase("fahrenheit")){
             this.temperaturaMantenimiento = (valor - 32) * 5 / 9.0;
+        } else {
+            System.out.println("Debes usar una unidad valida");
         }
     }
 

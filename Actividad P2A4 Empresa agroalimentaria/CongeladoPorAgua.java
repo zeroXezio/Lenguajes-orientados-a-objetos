@@ -8,6 +8,10 @@ public class CongeladoPorAgua extends ProductoCongelado{
         this.salinidad = s;
     }
 
+    public double getSalinidad(){
+        return this.salinidad;
+    }
+
     public void setSalinidad(double salinidad) {
         this.salinidad = salinidad;
     }
